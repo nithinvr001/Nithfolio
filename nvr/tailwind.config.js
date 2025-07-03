@@ -5,7 +5,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+  extend: {
+    colors: {
+      dark: '#1a1a1a',
+      accent: '#22c55e', // lime-green 
+    },
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+    },
   },
+}
+,
   plugins: [require("daisyui")],
 }
