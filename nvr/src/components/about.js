@@ -1,4 +1,4 @@
-// components/About.jsx
+
 export default function About() {
   return (
     <section className="p-6 bg-black text-white">
