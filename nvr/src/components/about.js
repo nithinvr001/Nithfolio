@@ -4,14 +4,14 @@ import deskImage from '../assets/desketup.jpg'; // replace with your image
 
 export default function About() {
   return (
-    <section className="p-6 text-white">
-      <h2 className="text-3xl font-bold lg:py-[40px]">
+    <section className=" text-white p-3 lg:p-6">
+      <h2 className="text-3xl font-bold lg:py-[40px] p-3 lg:p-6">
         <span className="text-green-500">Ab</span>out me
       </h2>
 
-      <div className='flex'>
+      <div className=' mt-3 lg:mt-0 lg:flex'>
 
-        <div className="bg-gray-900 p-6 rounded-xl shadow-xl w-[1200px] h-[400px] ">
+        <div className="bg-gray-900 p-3 lg:p-6 rounded-xl shadow-xl lg:w-[1200px] lg:h-[400px] ">
           <div className='lg:max-w-[800px]'>
             <p className="text-green-500 mb-2">
               &lt;code&gt;I build <span className="font-bold text-white">web applications</span> |&lt;/code&gt;
@@ -40,7 +40,7 @@ export default function About() {
           src={deskImage}
           style={{ objectFit: 'cover' }}
           alt="Desk Setup"
-          className="w-[300px] h-[300px] rounded-xl mr-10 ml-[-5%]  mt-[50px]"
+          className="lg:w-[300px] lg:h-[300px] lg:rounded-xl lg:mr-10 lg:ml-[-5%]  lg:mt-[50px]  "
         />
       </div>
     </section>

@@ -13,11 +13,11 @@ export default function Stats() {
    }];
 
   return (
-    <section className="p-6 text=white">
+    <section className="p-3 lg:p-6 text=white">
       <h2 className="text-3xl font-bold lg:py-[40px]">
         <span className="text-green-500">Sta</span>ts
       </h2>
-      <div className="flex space-x-5">
+      <div className=" mt-3 lg:mt-0 flex space-x-5 overflow-y-scroll no-scrollbar">
         {CardsData.map((cards) => (
           <div className="card bg-gray-900 w-96 shadow-sm">
             <div className="card-body">

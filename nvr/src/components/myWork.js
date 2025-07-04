@@ -8,11 +8,11 @@ export default function MyWorks() {
 
     ]
     return (
-        <section className="p-6 text-white ">
+        <section className="p-3 lg:p-6 text-white ">
             <h2 className="text-3xl font-bold lg:py-[40px]">
                 <span className="text-green-500">Cor</span>e tech stack
             </h2>
-            <div className="flex space-x-10 overflow-x-scroll no-scrollbar">
+            <div className=" mt-3 lg:mt-0 flex space-x-10 overflow-x-scroll no-scrollbar">
                 {myWords.map((works) => (
                     <div className="card bg-base-100 image-full min-w-96 shadow-sm">
                         <figure>

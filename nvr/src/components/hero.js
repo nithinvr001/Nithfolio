@@ -6,13 +6,13 @@ export default function Hero() {
   return (
     <div>
         <h1 className='text-white ml-[20px] pt-[20px] my-[50px] text-5xl'>NITHIN V R</h1>
-        <div className='flex'>
+      <div className='lg:flex'>
           <img
             src={deskImage}
             alt="Desk Setup"
-            className="w-[600px] h-[500px] rounded-tr-[30px] rounded-br-[30px]"
+          className="lg:w-[600px] lg:h-[500px] lg:rounded-tr-[30px] lg:rounded-br-[30px]"
           />
-          <div className="bg-gray-900 p-6 rounded-xl shadow-xl w-full h-[400px] ml-[-5%] mt-[50px] mr-[20px]">
+        <div className="bg-gray-900 p-3 lg:p-6 rounded-xl mx-auto lg:mx-0 shadow-xl w-[90%] lg:w-full lg:h-[430px]  lg:ml-[-5%] lg:mt-[50px] lg:mr-[20px]">
             <p className="text-green-500 mb-2">
               &lt;code&gt;I build <span className="font-bold text-white">web applications</span> |&lt;/code&gt;
             </p>

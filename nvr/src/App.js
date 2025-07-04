@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/about';
+import Contact from './components/contact';
 import EduNExp from './components/EduNExp';
 import Hero from './components/hero';
 import MyWorks from './components/myWork';
@@ -16,6 +17,7 @@ function App() {
         <TechStack/>
         <MyWorks/>
         <EduNExp/>
+        <Contact />
       </div>
 
 
