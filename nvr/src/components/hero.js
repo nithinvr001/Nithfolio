@@ -1,6 +1,7 @@
 
 import deskImage from '../assets/desketup.jpg'; // replace with your image
 import { FaGithub, FaLinkedin, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { ReactTyped } from 'react-typed';
 
 export default function Hero() {
   return (
@@ -13,9 +14,25 @@ export default function Hero() {
           className="lg:w-[600px] lg:h-[500px] lg:rounded-tr-[30px] lg:rounded-br-[30px]"
           />
         <div className="bg-gray-900 p-3 lg:p-6 rounded-xl mx-auto lg:mx-0 shadow-xl w-[90%] lg:w-full lg:h-[430px]  lg:ml-[-5%] lg:mt-[50px] lg:mr-[20px]">
-            <p className="text-green-500 mb-2">
-              &lt;code&gt;I build <span className="font-bold text-white">web applications</span> |&lt;/code&gt;
-            </p>
+          <p className="text-green-500 mb-2">
+            &lt;code&gt;I build{' '}
+            <span className="text-white font-bold">
+              <ReactTyped
+                strings={[
+                  'web applications',
+                  'beautiful UIs',
+                  'responsive websites',
+                  'React projects',
+                  'frontend experiences',
+                ]}
+                typeSpeed={50}
+
+                backSpeed={30}
+                loop
+              />{' '}
+            </span>
+            |&lt;/code&gt;
+          </p>
             <h1 className="text-2xl font-bold mb-2">Nithin</h1>
             <div className="flex gap-3 text-lg mb-4">
 
